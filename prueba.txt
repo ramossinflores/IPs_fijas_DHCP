@@ -1,0 +1,150 @@
+group Servidores{
+}
+group Desktops{
+}
+group Wireless{
+}group Servidores{
+}
+group Desktops{
+}
+group Wireless{
+}group Servidores{
+}
+group Desktops{
+}
+group Wireless{
+}group Servidores{
+}
+group Desktops{
+}
+group Wireless{
+}group Servidores{
+	host Web Server {
+		hardware ethernet 44:65:0d:56:cc:d3;
+		fixed-address 10.206.71.5;
+	}
+	host Belkin wemo motion sensor {
+		hardware ethernet ec:1a:59:83:28:11;
+		fixed-address 10.206.71.6;
+	}
+	host DataBase Server {
+		hardware ethernet 08:21:ef:3b:fc:e3;
+		fixed-address 10.206.71.7;
+	}
+}
+group Desktops{
+	host Smart Things {
+		hardware ethernet d0:52:a8:00:67:5e;
+		fixed-address 10.206.72.5;
+	}
+	host Insteon Camera  {
+		hardware ethernet 00:62:6e:51:27:2e;
+		fixed-address 10.206.72.6;
+	}
+	host Print Server {
+		hardware ethernet e8:ab:fa:19:de:4f;
+		fixed-address 10.206.72.7;
+	}
+	host Withings Smart Baby Monitor {
+		hardware ethernet 00:24:e4:11:18:a8;
+		fixed-address 10.206.72.8;
+	}
+	host Mail Server  {
+		hardware ethernet 74:c6:3b:29:d7:1d;
+		fixed-address 10.206.72.9;
+	}
+	host HP Printer  {
+		hardware ethernet 70:5a:0f:e4:9b:c0;
+		fixed-address 10.206.72.10;
+	}
+	host TPLink Router Bridge LAN (Gateway) {
+		hardware ethernet 14:cc:20:51:33:ea;
+		fixed-address 10.206.72.11;
+	}
+}
+group Wireless{
+	host Netatmo Welcome {
+		hardware ethernet 70:ee:50:18:34:43;
+		fixed-address 10.206.73.5;
+	}
+	host TP-Link Day Night Cloud camera {
+		hardware ethernet f4:f2:6d:93:51:f1;
+		fixed-address 10.206.73.6;
+	}
+	host Samsung SmartCam {
+		hardware ethernet 00:16:6c:ab:6b:88;
+		fixed-address 10.206.73.7;
+	}
+	host Dropcam  {
+		hardware ethernet 30:8c:fb:2f:e4:b2;
+		fixed-address 10.206.73.8;
+	}
+	host Belkin Wemo switch {
+		hardware ethernet ec:1a:59:79:f4:89;
+		fixed-address 10.206.73.9;
+	}
+	host TP-Link Smart plug {
+		hardware ethernet 50:c7:bf:00:56:39;
+		fixed-address 10.206.73.10;
+	}
+	host NEST Protect smoke alarm {
+		hardware ethernet 18:b4:30:25:be:e4;
+		fixed-address 10.206.73.11;
+	}
+	host Netatmo weather station {
+		hardware ethernet 70:ee:50:03:b8:ac;
+		fixed-address 10.206.73.12;
+	}
+	host Withings Smart scale {
+		hardware ethernet 00:24:e4:1b:6f:96;
+		fixed-address 10.206.73.13;
+	}
+	host Blipcare Blood Pressure meter {
+		hardware ethernet 74:6a:89:00:2e:25;
+		fixed-address 10.206.73.14;
+	}
+	host Withings Aura smart sleep sensor {
+		hardware ethernet 00:24:e4:20:28:c6;
+		fixed-address 10.206.73.15;
+	}
+	host Light Bulbs LiFX Smart Bulb {
+		hardware ethernet d0:73:d5:01:83:08;
+		fixed-address 10.206.73.16;
+	}
+	host Triby Speaker  {
+		hardware ethernet 18:b7:9e:02:20:44;
+		fixed-address 10.206.73.17;
+	}
+	host PIX-STAR Photo-frame {
+		hardware ethernet e0:76:d0:33:bb:85;
+		fixed-address 10.206.73.18;
+	}
+	host Nest Dropcam {
+		hardware ethernet 30:8c:fb:b6:ea:45;
+		fixed-address 10.206.73.19;
+	}
+	host Android Phone {
+		hardware ethernet 40:f3:08:ff:1e:da;
+		fixed-address 10.206.73.20;
+	}
+	host Laptop {
+		hardware ethernet 74:2f:68:81:69:42;
+		fixed-address 10.206.73.21;
+	}
+	host MacBook {
+		hardware ethernet ac:bc:32:d4:6f:2f;
+		fixed-address 10.206.73.22;
+	}
+	host Android Phone {
+		hardware ethernet b4:ce:f6:a7:a3:c2;
+		fixed-address 10.206.73.23;
+	}
+	host IPhone {
+		hardware ethernet d0:a6:37:df:a1:e1;
+		fixed-address 10.206.73.24;
+	}
+	host MacBook/Iphone {
+		hardware ethernet f4:5c:89:93:cc:85;
+		fixed-address 10.206.73.25;
+	}
+}
